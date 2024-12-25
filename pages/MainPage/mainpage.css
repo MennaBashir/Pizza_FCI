@@ -1,0 +1,103 @@
+.homePage {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 90px;
+  align-items: center;
+  position: relative;
+}
+.homePage .text {
+  position: relative;
+  z-index: 36;
+}
+.homePage .text h1 {
+  font-size: 5rem;
+  color: whitesmoke;
+}
+.homePage .text button {
+  padding: 17px 30px;
+  outline: none;
+  color: whitesmoke;
+  background-color: #f7b035;
+  display: flex;
+  gap: 8px;
+  border-radius: 90px;
+  border: none;
+  align-items: center;
+  cursor: pointer;
+  transition: all 0.3s;
+  margin-top: 20px;
+}
+.homePage .text span {
+  font-size: 15px;
+  text-transform: capitalize;
+}
+.homePage .text button:hover {
+  background-color: #f5a316;
+  transform: translateY(-3px);
+}
+.homePage .hero {
+  position: relative;
+}
+.homePage .hero img {
+  width: 500px;
+}
+.homePage .text img {
+  position: absolute;
+  z-index: -13;
+  top: -32px;
+}
+.homePage .heros img {
+  position: absolute;
+}
+.homePage .heros .shape1 {
+  right: 0;
+  top: 0;
+}
+.homePage .heros .shape2 {
+  left: 51%;
+  top: 0;
+}
+.homePage .heros .shape3 {
+  bottom: 10px;
+  left: 40%;
+}
+.homePage .heros .shape4 {
+  bottom: 10px;
+  right: 10%;
+}
+.headOfProduct {
+  width: fit-content;
+  display: block;
+  margin: auto;
+  margin-top: 50px;
+  margin-bottom: -20px;
+}
+/* Responsive */
+@media (max-width: 767px) {
+  .homePage {
+    flex-direction: column-reverse;
+    margin-top: 13px;
+    gap: 29px;
+  }
+  .homePage .text h1 {
+    font-size: 52px;
+    text-align: center;
+  }
+  .homePage .text button {
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 30px;
+  }
+  .homePage .hero img {
+    max-width: 100%;
+  }
+  .homePage .heros .shape4,
+  .homePage .heros .shape1,
+  .homePage .heros .shape2 {
+    display: none;
+  }
+  .homePage .heros .shape3 {
+    left: 0;
+    width: 75px;
+  }
+}

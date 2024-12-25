@@ -1,0 +1,71 @@
+.navbar ul li a,
+.navbar .login span a {
+  color: #000;
+  font-weight: 500;
+}
+.back {
+  background-color: #fff8ef;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #eddfc6;
+}
+.aboutBox {
+  display: flex;
+  gap: 40px;
+  margin-bottom: 100px;
+}
+.aboutBox h3 {
+  color: #f7b035;
+  font-weight: 700;
+  text-transform: capitalize;
+  font-size: 22px;
+  margin-bottom: 15px;
+  font-family: "Delius Unicase", cursive;
+}
+.aboutBox h2 {
+  font-size: 44px;
+  font-weight: 600;
+  margin-bottom: 6px;
+}
+.aboutBox .parg {
+  background-image: url("/images/about/shape23.png");
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  max-width: 500px;
+  margin-top: 30px;
+  background-repeat: no-repeat;
+  background-position: bottom left;
+}
+.aboutBox .parg p {
+  color: #616161;
+  word-spacing: 2px;
+  line-height: 25px;
+}
+.aboutBox .aboutImage .imag {
+  position: relative;
+}
+.aboutBox .aboutImage .imag::after {
+  content: "";
+  position: absolute;
+  width: calc(100% - 60px);
+  height: 100%;
+  border: 15px solid #ffe0a9de;
+  top: -45px;
+  left: 52px;
+  z-index: 1;
+  border-radius: 100px;
+}
+.aboutBox .aboutImage .imag img {
+  z-index: 2;
+  position: relative;
+  max-width: 100%;
+}
+@media (max-width: 667px) {
+  .aboutBox {
+    flex-direction: column;
+  }
+  .aboutBox .aboutImage .imag {
+    margin-top: 40px;
+    margin-right: 20px;
+  }
+}

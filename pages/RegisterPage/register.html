@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Register</title>
+    <!-- Icons -->
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+      rel="stylesheet"
+    />
+    <!-- Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik:wght@300..900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Global Style -->
+    <link rel="stylesheet" href="/globalStyle/main.css" />
+
+    <!-- Page Style -->
+    <link rel="stylesheet" href="/pages/LoginPage/login.css" />
+  </head>
+  <body>
+    <!-- Register -->
+    <section id="signup-section">
+      <div class="logoLogin">
+        <img src="/images/login/logo_black.png" alt="notFound" />
+        <a href="/pages/MainPage/mainpage.html"
+          ><i class="fa-solid fa-house" style="color: #ffffff"></i> BACK TO
+          HOME</a
+        >
+      </div>
+      <div class="account">
+        <img src="/images/login/login.png" />
+        <h1>Create Account</h1>
+        <form id="signup-form">
+          <input
+            id="signup-user-name"
+            placeholder="User name"
+            name="user-name"
+            required
+          />
+          <input
+            id="signup-password"
+            placeholder="Password"
+            name="password"
+            type="password"
+            required
+          />
+          <button type="submit">Sign Up</button>
+        </form>
+        <p>
+          Already have an account?
+          <a href="/pages/LoginPage/login.html">Login</a>
+        </p>
+      </div>
+    </section>
+
+    <!-- Script For menubar -->
+    <script src="/script/menubar.js"></script>
+    <!-- Script for register -->
+    <script src="/script/login.js"></script>
+  </body>
+</html>

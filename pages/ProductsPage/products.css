@@ -1,0 +1,101 @@
+.products {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  margin-top: 70px;
+  margin-bottom: 70px;
+}
+.products .our-product h2 {
+  font-size: 32px;
+  font-weight: bold;
+  color: #ffa500;
+  font-family: "Inconsolata", monospace;
+  margin-bottom: 1rem;
+}
+.products .menu p {
+  color: #96722f;
+  font-size: 18px;
+  margin: 20px 0;
+  line-height: 1.6;
+  cursor: pointer;
+}
+.products h2 {
+  text-align: center;
+  color: #ffa500;
+  font-family: "Inconsolata", monospace;
+  font-size: 28px;
+  cursor: pointer;
+}
+.products .menu-text {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px 0;
+  gap: 10px;
+}
+.products .menu-left h4 {
+  font-size: 23px;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+.products .menu-right h5 {
+  color: #ffa500;
+  font-size: 23px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.products button {
+  color: #efb029;
+  padding: 10px 20px;
+  border: 1px solid #ccc;
+  border-radius: 20px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-top: 15px;
+  margin-bottom: 10px;
+  margin-left: 5px;
+  background-color: #fff;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+.products .menu-content {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+  align-items: center;
+  margin-top: 4rem;
+  padding: 30px;
+  cursor: pointer;
+
+}
+.products .row {
+  transition: all 0.4s ease;
+  max-width: 300px;
+  box-shadow: 0px 0px 5px 1px #eee;
+  border-radius: 10px;
+  text-align: center;
+  padding: 20px;
+}
+.products .row img {
+  width: 250px;
+  vertical-align: middle;
+  margin-right: 15px;
+  border-radius: 10px;
+}
+.products .row:hover {
+  box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+  transform: translateY(-5px);
+}
+.products .row p {
+  color: #616161;
+  font-size: 15px;
+  line-height: 30px;
+  margin-bottom: 15px;
+  margin-left: 10px;
+  margin-top: 10px;
+}
+.products .star a {
+  margin-right: 3px;
+  margin-left: 5px;
+  color: #ffa500;
+}

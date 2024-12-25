@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact Us</title>
+    <!-- Icons -->
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+      rel="stylesheet"
+    />
+    <!-- Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik:wght@300..900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Global Style -->
+    <link rel="stylesheet" href="/globalStyle/main.css" />
+    <!-- Change navbar -->
+    <link rel="stylesheet" href="/pages/AboutusPage/about.css" />
+    <!-- Page Style -->
+    <link rel="stylesheet" href="contact.css" />
+  </head>
+  <body>
+    <div class="back">
+      <div class="container">
+        <!-- Navbar -->
+        <header>
+          <div class="navbar">
+            <div class="logo">
+              <a href="/pages/MainPage/mainpage.html"
+                ><img src="/images/main/footer_logo.png"
+              /></a>
+            </div>
+            <div class="links" id="links">
+              <ul>
+                <li><a href="/pages/MainPage/mainpage.html">home</a></li>
+                <li><a href="/pages/MenuPage/menu.html">menu</a></li>
+                <li class="item active">
+                  <a href="">pages</a>
+                  <ul class="showItems1 showItems">
+                    <li>
+                      <a href="/pages/AboutusPage/about.html">About Us</a>
+                    </li>
+                    <li>
+                      <a href="/pages/GalleryPage/gallery.html">Gallery</a>
+                    </li>
+                    <li>
+                      <a href="/pages/LoginPage/login.html">Login Page</a>
+                    </li>
+                    <li>
+                      <a href="/pages/RegisterPage/register.html"
+                        >Signup Page</a
+                      >
+                    </li>
+                    <li>
+                      <a href="">Contact</a>
+                    </li>
+                  </ul>
+                </li>
+                <li class="item">
+                  <a href="">shop</a>
+                  <ul class="showItems2 showItems">
+                    <li>
+                      <a href="/pages/ProductsPage/products.html">Products</a>
+                    </li>
+                    <li>
+                      <a href="/pages/ProductDetailsPage/productDetails.html"
+                        >Product Details</a
+                      >
+                    </li>
+                  </ul>
+                </li>
+              </ul>
+            </div>
+            <div id="menuOpen" class="menuOpen show">
+              <i class="fa-solid fa-bars-staggered"></i>
+            </div>
+            <div id="menuClose" class="menuClose">
+              <i class="fa-solid fa-x"></i>
+            </div>
+            <div class="login">
+              <span><a href="/pages/LoginPage/login.html">login</a></span>
+              <span class="cart"
+                ><i class="fa-solid fa-cart-shopping"></i>
+                <span class="badge">2</span></span
+              >
+            </div>
+          </div>
+        </header>
+      </div>
+    </div>
+    <!-- Contact -->
+    <div class="backContact">
+      <div id="contact-container">
+        <img src="/images/login/logo_black.png" alt="notFound" />
+        <form id="contact-form">
+          <fieldset>
+            <legend>Contact Us</legend>
+
+            <div class="span1">
+              <label for="first-name">First Name</label>
+              <input
+                type="text"
+                id="first-name"
+                name="first-name"
+                placeholder="Enter your first name"
+                required
+              />
+            </div>
+            <div class="span1">
+              <label for="last-name">Last Name</label>
+              <input
+                type="text"
+                id="last-name"
+                name="last-name"
+                placeholder="Enter your last name"
+                required
+              />
+            </div>
+            <div class="span1">
+              <label for="email">Email</label>
+              <input
+                type="email"
+                id="email"
+                name="email"
+                placeholder="Enter your email"
+                required
+              />
+            </div>
+            <div class="span1">
+              <label for="phone">Phone</label>
+              <input
+                type="tel"
+                id="phone"
+                name="phone"
+                placeholder="Enter your phone number"
+                required
+              />
+            </div>
+            <div class="span2">
+              <label for="subject">Subject</label>
+              <input
+                type="text"
+                id="subject"
+                name="subject"
+                placeholder="Enter the subject"
+                required
+              />
+            </div>
+            <div class="span2">
+              <label for="message">Message</label>
+              <textarea
+                id="message"
+                name="message"
+                placeholder="Write your message here"
+                required
+              ></textarea>
+            </div>
+            <button type="submit">Send</button>
+          </fieldset>
+        </form>
+      </div>
+    </div>
+    <!-- Footer -->
+    <footer>
+      <div class="container">
+        <div class="boxes">
+          <div class="box1">
+            <h3>Customer</h3>
+            <ul>
+              <li><a href="">Wishlist</a></li>
+              <li><a href="">Privacy Policy</a></li>
+              <li><a href="">Order Tracking</a></li>
+              <li><a href="">Delivery Option</a></li>
+            </ul>
+          </div>
+          <div class="box2">
+            <div class="imag">
+              <img src="/images/main//footer_logo.png" alt="notFound" />
+            </div>
+            <ul>
+              <li><span>44 Canal Center Plaza #200, Alexandria</span></li>
+              <li><span>VA 22314, USA</span></li>
+              <li>
+                <span
+                  >Hotline : <span class="xcolor">1900 - 123 456 78</span></span
+                >
+              </li>
+              <li>
+                <span>Email: <span class="xcolor">info@example.com</span></span>
+              </li>
+            </ul>
+            <ul class="social">
+              <li><i class="fa-brands fa-facebook-f"></i></li>
+              <li><i class="fa-brands fa-instagram"></i></li>
+              <li><i class="fa-brands fa-twitter"></i></li>
+              <li><i class="fa-brands fa-pinterest-p"></i></li>
+            </ul>
+          </div>
+          <div class="box3">
+            <h3>Opening Hour</h3>
+            <ul>
+              <li>Mon - Fri: <span class="xcolor">09:00 – 23:00h</span></li>
+              <li>Saturday: <span class="xcolor">09:00 – 16:00h</span></li>
+              <li>Sunday: <span class="xcolor">12:00 – 18:00h</span></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <p class="copyRight">© Copyright 2021 Pizzle. All Rights Reserved.</p>
+    </footer>
+    <!-- Script For menubar -->
+    <script src="/script/menubar.js"></script>
+    <!-- Script for contact -->
+  </body>
+</html>
